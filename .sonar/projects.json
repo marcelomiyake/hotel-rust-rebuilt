@@ -1,0 +1,17 @@
+{
+  "policy": "Use a Sonar project for each real component; retain existing aggregate history.",
+  "projects": [
+    {
+      "component": "backend",
+      "directory": "services/backend",
+      "key": "marcelomiyake_hotel-rust-rebuilt_backend",
+      "kind": "rust-rebuilt"
+    },
+    {
+      "component": "frontend",
+      "directory": "frontend",
+      "key": "marcelomiyake_hotel-rust-rebuilt_frontend",
+      "kind": "web"
+    }
+  ]
+}
