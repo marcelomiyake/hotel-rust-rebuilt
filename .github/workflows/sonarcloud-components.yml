@@ -22,7 +22,7 @@ jobs:
         persist-credentials: false
     - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
       with:
-        node-version: '24'
+        node-version: '26.13.1'
     - uses: actions-rust-lang/setup-rust-toolchain@ecabd13d1c56bd1345c230e542e9144811ad706f
     - name: Prepare analysis inputs
       id: prepare
